@@ -225,6 +225,18 @@ function get_difficulty_rating(total_pc_xp, total_cr_xp) {
   return difficulty_rating
 }
 
+function calculate_encounter_level(total_cr_xp) {
+  let encounter_level = 0
+
+  sorted_cr = Object.keys(CR_XP).sort((a, b) => (a - b))
+
+  for (const cr of sorted_cr) {
+    if (CR_XP[cr] <= total_cr_xp) encounter_level = cr
+  }
+
+  return encounter_level
+}
+
 function output_results(results) {
   console.log('Number of PCs:', results['total_pcs'])
   console.log('Number of Monsters:', results['total_creatures'])
@@ -234,6 +246,7 @@ function output_results(results) {
   console.log("Initial Monsters' XP:", results['total_cr_xp'])
   console.log("Monsters' XP (with multiplier):", results['multiplier_cr_xp'])
   console.log("Monsters' XP (factoring encounters/day):", results['factored_cr_xp'])
+  console.log('Encounter Level:', results['encounter_level'])
   console.log('Difficulty Rating:', results['difficulty_rating'])
 }
 
@@ -248,10 +261,12 @@ function main(pc_level_qt, cr_qt, encounter_day) {
   let difficulty_rating = get_difficulty_rating(total_pc_xp, multiplier_cr_xp)
   const factored_cr_xp = multiplier_cr_xp * (encounter_day / ENCOUNTER_FACTOR[difficulty_rating])
   difficulty_rating = get_difficulty_rating(total_pc_xp, factored_cr_xp)
+  const encounter_level = calculate_encounter_level(factored_cr_xp)
 
   output_results({
     difficulty_rating,
     encounter_day,
+    encounter_level,
     factored_cr_xp,
     multiplier,
     multiplier_cr_xp,
@@ -267,6 +282,7 @@ let pc_level_qt = {
   4: 4,
   5: 4,
 }
+
 // change these for the monsters (CR: quantity) (e.g.: 0.5: 3 or 0.125: 4)
 let cr_qt = {
   2: 2,
@@ -274,6 +290,7 @@ let cr_qt = {
   6: 1,
   7: 2,
 }
+
 // number of encounters expected per day
 let encounter_day = 4
 
