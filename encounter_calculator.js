@@ -228,11 +228,9 @@ function get_difficulty_rating(total_pc_xp, total_cr_xp) {
 function calculate_encounter_level(total_cr_xp) {
   let encounter_level = 0
 
-  sorted_cr = Object.keys(CR_XP).sort((a, b) => (a - b))
-
-  for (const cr of sorted_cr) {
-    if (CR_XP[cr] <= total_cr_xp) encounter_level = cr
-  }
+  Object.keys(CR_XP).sort((a, b) => (a - b)).forEach((key) => {
+    if (CR_XP[key] <= total_cr_xp) encounter_level = key
+  })
 
   return encounter_level
 }
