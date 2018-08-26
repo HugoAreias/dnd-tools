@@ -125,12 +125,12 @@ const CR_XP = {
   30: 155000,
 }
 
-const ENCOUNTER_FACTOR = {
-  'Trivial': 20,
-  'Easy': 12,
-  'Medium': 8,
-  'Hard': 6,
-  'Deadly': 3,
+// Tweak percentages based on DMing XP
+const RATING_MIN_THRESHOLD = {
+  'Easy': 100,
+  'Medium': 60,
+  'Hard': 25,
+  'Deadly': 10,
 }
 
 const ENCOUNTER_RATINGS = ['Easy', 'Medium', 'Hard', 'Deadly']
@@ -139,6 +139,52 @@ const MIN_PARTY = 3
 const MAX_PARTY = 5
 const EPIC_LEVEL = 20
 const MAX_CR = 30
+const DMG_MEDIUM_PER_DAY = 8
+
+function calculate_ratios_table(encounter_ratings_list, ratio_table) {
+  const pivot_rating = encounter_ratings_list[0]
+  for (const rating of encounter_ratings_list) {
+    Object.keys(PC_XP[pivot_rating]).forEach((level) => {
+      if (!(pivot_rating in ratio_table[rating])) ratio_table[rating][pivot_rating] = 0
+      ratio_table[rating][pivot_rating] += PC_XP[pivot_rating][level] / PC_XP[rating][level]
+      if (rating != pivot_rating) {
+        if (!(rating in ratio_table[pivot_rating])) ratio_table[pivot_rating][rating] = 0
+        ratio_table[pivot_rating][rating] += PC_XP[rating][level] / PC_XP[pivot_rating][level]
+      }
+    })
+    ratio_table[rating][pivot_rating] /= (1.0 * EPIC_LEVEL)
+    if (rating != pivot_rating) ratio_table[pivot_rating][rating] /= (1.0 * EPIC_LEVEL)
+  }
+
+  // RangeError: Maximum call stack size exceeded
+  // calculate_ratios_table(encounter_ratings_list.slice(1), ratio_table)
+  return ratio_table
+}
+
+function calculate_ratios() {
+  let ratio_table = {
+    'Easy': {},
+    'Medium': {},
+    'Hard': {},
+    'Deadly': {},
+  }
+
+  for (index of[...ENCOUNTER_RATINGS.keys()]) {
+    ratio_table = calculate_ratios_table(ENCOUNTER_RATINGS.slice(index), ratio_table)
+  }
+
+  // uncomment to calculate the estimated number of encounters a party can handle per difficulty rating
+  // let rating_ratios = {}
+  //
+  // for (const rating of ENCOUNTER_RATINGS) {
+  //   rating_ratios[rating] = DMG_MEDIUM_PER_DAY / ratio_table.Medium[rating]
+  // }
+
+  return {
+    // rating_ratios,
+    ratio_table,
+  }
+}
 
 function calculate_pc_xp_threshold(pc_level_qt) {
   let total_pcs = 0
@@ -215,7 +261,7 @@ function calculate_multiplier(total_pcs, total_creatures) {
 }
 
 function get_difficulty_rating(total_pc_xp, total_cr_xp) {
-  let difficulty_rating = 'Trivial'
+  let difficulty_rating = 'Easy'
 
   for (const rating of ENCOUNTER_RATINGS) {
     if (total_pc_xp[rating] >= total_cr_xp) break
@@ -236,19 +282,18 @@ function calculate_encounter_level(total_cr_xp) {
 }
 
 function output_results(results) {
-  console.log('Number of PCs:', results['total_pcs'])
-  console.log('Number of Monsters:', results['total_creatures'])
-  console.log('Number of Encounters/Day:', results['encounter_day'])
-  console.log('Encounter Multiplier:', results['multiplier'])
-  console.log("Party's XP Threshold:", results['total_pc_xp'])
-  console.log("Initial Monsters' XP:", results['total_cr_xp'])
-  console.log("Monsters' XP (with multiplier):", results['multiplier_cr_xp'])
-  console.log("Monsters' XP (factoring encounters/day):", results['factored_cr_xp'])
-  console.log('Encounter Level:', results['encounter_level'])
-  console.log('Difficulty Rating:', results['difficulty_rating'])
+  console.log('DMG Single Encounter Rating\n')
+  console.log('Number of PCs:', results.total_pcs)
+  console.log('Number of Monsters:', results.total_creatures)
+  console.log('Encounter Multiplier:', results.multiplier)
+  console.log("Party's XP Threshold:", results.total_pc_xp)
+  console.log("Initial Monsters' XP:", results.total_cr_xp)
+  console.log("Adjusted Monsters' XP:", results.multiplier_cr_xp)
+  console.log('Difficulty Rating:', results.difficulty_rating)
+  console.log('Encounter Level:', results.encounter_level)
 }
 
-function main(pc_level_qt, cr_qt, encounter_day) {
+function calculate_encounter_difficulty(pc_level_qt, cr_qt) {
   const [total_pc_xp, total_pcs] = calculate_pc_xp_threshold(pc_level_qt)
   const [total_cr_xp, total_creatures] = calculate_total_cr_xp(cr_qt)
 
@@ -256,16 +301,12 @@ function main(pc_level_qt, cr_qt, encounter_day) {
 
   const multiplier = calculate_multiplier(total_pcs, total_creatures)
   const multiplier_cr_xp = total_cr_xp * multiplier
-  let difficulty_rating = get_difficulty_rating(total_pc_xp, multiplier_cr_xp)
-  const factored_cr_xp = multiplier_cr_xp * (encounter_day / ENCOUNTER_FACTOR[difficulty_rating])
-  difficulty_rating = get_difficulty_rating(total_pc_xp, factored_cr_xp)
-  const encounter_level = calculate_encounter_level(factored_cr_xp)
+  const difficulty_rating = get_difficulty_rating(total_pc_xp, multiplier_cr_xp)
+  const encounter_level = calculate_encounter_level(multiplier_cr_xp)
 
   output_results({
     difficulty_rating,
-    encounter_day,
     encounter_level,
-    factored_cr_xp,
     multiplier,
     multiplier_cr_xp,
     total_creatures,
@@ -273,6 +314,54 @@ function main(pc_level_qt, cr_qt, encounter_day) {
     total_pcs,
     total_pc_xp,
   })
+
+  return difficulty_rating
+}
+
+function output_day_results(results) {
+  console.log('\n\nDay Encounters Rating Estimation')
+  for (const index of results.keys()) {
+    console.log('\nEncounter', index + 1)
+    console.log('Initial Difficulty Rating:', results[index].initial_rating)
+    console.log('Estimated Difficulty Rating:', results[index].estimated_rating)
+    console.log('Estimated Percentage of Party Resources After Encounter:', results[index].party_resources.toFixed(2) + '%')
+  }
+}
+
+function calculate_day_encounter_difficulty(encounters_day, ratio_medium) {
+  let current_party_resources = 100
+  let encounters_difficulty = []
+
+  for (const encounter_rating of encounters_day) {
+    if (!(encounter_rating in ratio_medium)) {
+      // keep the unknown rating and continue to next encounter
+      encounters_difficulty.push({
+        'initial_rating': encounter_rating,
+        'estimated_rating': encounter_rating,
+        'party_resources': current_party_resources
+      })
+      continue
+    }
+
+    let estimated_rating = 'Easy';
+    current_party_resources -= ratio_medium[encounter_rating] * 100 / DMG_MEDIUM_PER_DAY
+
+    if (current_party_resources < RATING_MIN_THRESHOLD.Deadly) {
+      estimated_rating = 'Deadly'
+    } else if (current_party_resources < RATING_MIN_THRESHOLD.Hard) {
+      estimated_rating = 'Hard'
+    } else if (current_party_resources < RATING_MIN_THRESHOLD.Medium) {
+      estimated_rating = 'Medium'
+    }
+
+    encounters_difficulty.push({
+      'initial_rating': encounter_rating,
+      'estimated_rating': estimated_rating,
+      'party_resources': current_party_resources
+    })
+  }
+
+  output_day_results(encounters_difficulty)
 }
 
 // change these for the number of PCs (PC level: number of PCs)
@@ -289,7 +378,12 @@ let cr_qt = {
   7: 2,
 }
 
-// number of encounters expected per day
-let encounter_day = 4
+// previous encounters expected for the day
+// these ratings should be per individual encounter, i.e., following solely DMG calculations
+let encounters_day = ['Medium', 'Easy', 'Hard', 'Hard', 'Deadly']
+// let encounters_day = ['Medium', 'Mock', 'Easy', 'Easy', 'Deadly']
+// let encounters_day = ['Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy', 'Easy']
 
-main(pc_level_qt, cr_qt, encounter_day)
+ratios = calculate_ratios()
+encounters_day.push(calculate_encounter_difficulty(pc_level_qt, cr_qt))
+calculate_day_encounter_difficulty(encounters_day, ratios.ratio_table.Medium)
