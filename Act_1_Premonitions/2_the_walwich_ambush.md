@@ -9,6 +9,8 @@ Mathias has infiltrated the mercenaries group in an attempt to discover who they
 
 Now in the palace, Jack, Archon and Nick are charged of conducting the investigations. They are led to a home with only a single mercenary, the apparent ringleader. The mercenary doesn't seem interested on collaborating with the proceedings until Archon mutters a few words and appears to cast a charming spell. From this point, the party learns that the mercenaries were hired by someone unbeknownst to them, but after some investigations of their own, they managed to narrow it down to three council members. ***Aaron Mazi***, a believed gambler responsible for the staff's payrolls, ***Marthil Yinnan***, a recent council member, responsible for guilds regulations, and lastly ***Rowan Fay***, a well-known diplomat. They also learn the mercenary is called ***Filip*** and his codename is ***Swashbuckler***.
 
+The party is given four documents with Anahel seals, allowing them to move unhindered on any council facilities, but still she asks for low profile.
+
 Meanwhile, Strax and Shirley head to T4U for a drink, and afterwards decide to get the contract payment from The Merchants Union, which they do after a clumsy negotiation.
 
 Back on Valentine's Investigations office, Jack is visited by a peer of his, bringing news that Al'gaz is willing to exchange information. Jack and Nick decide to head to Al'gaz residence to discuss the terms, but nothing comes out of it, as both Jack and Al'gaz are unwilling to compromise. Nick also gets to exchange a cryptic conversation with the lady faeduirn acquainted with Al'gaz, and is advised to stay out of it, that things can get dangerous to him and his friends.
