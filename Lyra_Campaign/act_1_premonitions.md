@@ -1,4 +1,34 @@
-# The Walwich Ambush
+# Act I: Premonitions
+
+* [The Journey Begins](#the-journey-begins)
+* [The Walwich Ambush](#the-walwich-ambush)
+* [Evading a Sharp-edge Knife](#evading-a-sharp-edge-knife)
+
+## The Journey Begins
+
+In a typical summer day, ***Nick Valentine***, ***Shirley*** and ***Strax*** find themselves relaxing in their office located at Dhumnore's downtown, when ***Janine***, ***Valentine's Investigations'*** receptionist, knocks at the door to deliver two letters. One of the letters has the seal of ***The Merchants Union***, while the remainder doesn't have anything written on it. After opening the latter, the party finds out the letter was sent by ***Al'gaz***, a very influential information broker and arms dealer. He politely requests for an audience on his residence. The party decides to meet with the merchants guild in the morning and with Al'gaz mid-afternoon.
+
+Around the same time, ***Jack Harker*** receives visits on his humble quarters. Two heavily armoured guards knock at his door and ask him to accompany them for an audience with his dear friend ***Anahel***, Dhumnore's mayor. Jack, as usual, is led inconspicuously to Anahel presence, where she reveals to Jack that she received information from Tarnak's intel that the ***Red Patrons*** criminal organisation was attempting to establish contacts with Gilmoira, the city of gnomes located at Fyrn Mountains and main source of Tarnak's gunpowder. She asks Jack to find out what the Red Patrons are scheming.
+
+At this point, Jack heads to Valentine's Investigations' office to discuss this urgent matter, and the party decides to bring Jack along to their audiences in pursuit for all the extra information they can possible gather.
+
+At the merchants guild, the party meets ***Lucio Turpin***, the president of the guild, which, after a cordial negotiation, hires them to find out who's behind the random attacks on the merchant wagons coming from Tarnak. They are to be paid 200gp if they conclude the deal. They also obtain a list of all the survivors' names and addresses.
+
+The party, with some time to kill until Al'gaz audience, decides to speak with one of these survivors. When they knock at the merchant's door, they are welcomed by a lady. She recognises Jack and politely points to him that ***Mr. Smith*** is resting. Jack insists they must urgently discuss some important matters with Mr. Smith, to which his wife ***Marigold*** concedes. From Mr. Smith's chat, the party finds out the attackers don't seem to have a defined modus operandi, and don't seem interested on the cargo.
+
+Afterwards, the party finally heads to Al'gaz's residence in the shadier quarters of Dhumnore. Jack warns the party that Al'gaz is always accompanied with a lady, an I'ludere faeduirn such as Nick, that occasionally intrudes the visitors minds  probing for information or lies. Consistent with Pr'tor views on any chaos portrayal, Shirley decides to wait outside. The remaining party members venture inside and are eventually led to a dim room, with no chairs other than the one Al'gaz is sitting on.
+
+Al'gaz and Jack, two of the most influential individuals in town, are well acquainted and exchange various pieces of information. The party finds out Al'gaz was hired to locate an artefact that resembles a stone hourglass containing a black grainy substance. Al'gaz tries to hire the party, but Jack trades their share of the deal, 1000gp, for extra information, and is told that a few mercenaries from ***The Drama Killers*** approached Al'gaz looking to buy some weaponry. During this exchange of information, the faeduirn opens a communication link with Nick to ask why he is bunching with such losers. She also seems to hint she has her own interests on her partnership with Al'gaz. Al'gaz appears unaware of this exchange, and also appears to have a similar reaction when she attempts to read the mind of the party members in the room.
+
+After the audience, the party heads to the mercenaries guild to meet ***Alan***, the guild master. From him, the party finds out that it is common practice among the mercenaries to engage on unofficial contracts. The guild knows about this but closes their eyes to this practice, and asks for discretion on the matter. In exchange, Alan lets the party know some of the mercenaries who engage on this practice, and that the mercenaries usually hang out in the ***T4U*** tavern when off duty.
+
+When in the tavern, Shirley engages in an arm wrestling contest with a fellow Pr'tor fighter, but is bested by him. Shirley and Jack lose 20gp in total. Jack manages to recover his share by betting and providing some magical assistant to a Taxiarchae mercenary that challenges and beats the Pr'tor.
+
+Meanwhile, Strax approaches three undisturbed mercenaries that are drinking together, unaware that in truthiness they don't know each other. After engaging on a nostalgic conversation with a fellow Eipeks, Strax notices one of the human mercenaries appears to be unsettled. Shirley eventually engages on a conversation with the other human to find out that the unsettled mercenary about to leave just recently joined the guild. He decides to follow him, followed closely by Nick after being alerted to the these occurrences by Jack. Shirley confronts the retreating mercenary, persuading him he belongs to the mercenaries guild, and is looking for a good paying job. The mercenary relaxes his stance and tells Shirley to show up next morning at ***Walwich Wood*** to find out more about the job. When the mercenary is leaving, Shirley, in a moment of misjudgement, asks for the mercenary's name, to which he gets a cold and suspicious answer, "We have no names". It is fairly known mercenaries adopt and address themselves via codenames. Nevertheless, the party decides the best approach is for Shirley to meet the mercenaries next morning in an attempt to join the band, while Strax and Nick are to stay a bit behind and act as backup in case the plan goes awry. Jack decides he will stay in town to gather more intel from his peers.
+
+Next morning, the party rolls out their plan, but it goes awry and Shirley sees himself trapped in a dire situation. While surrendering seems the plausible option, Shirley is a Pr'tor and fighting to death is on his blood.
+
+## The Walwich Ambush
 
 While Shirley, Nick and Strax are about to jump into a trap, Jack heads to ***Dhumnore Angels*** in search of information about the Red Patrons and the mysterious artefact. He meets Archon, a long acquaintance of Anahel, and leader of the Dhumnore Angels, a sort of business rivals of Valentine's Investigations. During the talks, Jack mentions their Walwich operation, to which Archon becomes appalled. He asks an assistant to join them in the room and orders him to dispatch all the available men to Walwich Wood immediately. Before Jack leaving and joining the squadron, Archon makes sure to mention that Jack will owe him one for this.
 
@@ -29,4 +59,6 @@ Lastly, the party heads to the second floor to check on Rowan's office. Nick cau
 
 Before leaving the Council House, Jack leaves a note with a guard relaying this information to Anahel.
 
-At this point, deep into the night, the party decides to give it a rest for today. The night goes uneventful except for Jack. While sound asleep, he finds himself in a ruined and stormy city, facing what looks like a massive portal. Next to the portal, the hourglass artefact floats freely as if luring him to handle it. Jack slowly approaches it and holds it on his hand, feeling this  energy tempting him to advance towards the portal. As he starts moving towards the portal, Jack wakes up sweating and panting.
+At this point, deep into the night, the party decides to give it a rest for today. The night goes uneventful except for Jack. While sound asleep, he finds himself in a ruined and stormy city, facing what looks like a massive portal. Next to the portal, the hourglass artefact floats freely as if luring him to handle it. Jack slowly approaches it and holds it on his hand, feeling this energy tempting him to advance towards the portal. As he starts moving towards the portal, Jack wakes up sweating and panting.
+
+##  Evading a Sharp-edge Knife
