@@ -5,7 +5,7 @@
 * [Evading a Sharp-edge Knife](#evading-a-sharp-edge-knife)
 * [When Plans Go Awry](#when-plans-go-awry)
 * [A Criminal Amongst Us](#a-criminal-amongst-us)
-* [The Wheel are Turning](#the-wheel-are-turning)
+* [The Wheels are Turning](#the-wheels-are-turning)
 
 ## The Journey Begins
 
