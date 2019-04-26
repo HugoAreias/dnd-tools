@@ -5,7 +5,7 @@
 * [Evading a Sharp-edge Knife](#evading-a-sharp-edge-knife)
 * [When Plans Go Awry](#when-plans-go-awry)
 * [A Criminal Amongst Us](#a-criminal-amongst-us)
-* [The Wheel is Turning](#the-wheel-is-turning)
+* [The Wheel are Turning](#the-wheel-are-turning)
 
 ## The Journey Begins
 
@@ -116,7 +116,7 @@ The party leaves Janine to her slumber and heads back to the office hall, when t
 
 Moments later, there's a clatter of hoofs as a group of riders comes up to the party. The group is led by ***Patrik "Red Wings"***, Commander of the Royal Guard. To the party surprise, Patrik orders Strax arrested for the murdering of Mathias.
 
-## The Wheel is Turning
+## The Wheels are Turning
 
 Next morning the party quickly heads to the palace to convene with Strax and Anahel. When there, they immediately notice the security apparatus. They are informed that Warlord Zephyr is meeting with Anahel later today. Finally inside the palace, they are guided to the dungeons where Strax can be found on a cell of his own. The party agrees to stand for Strax during the trial, and then they take the chance to enquiry the prosecutor about the charges. The party learns Strax is being charged by the murders of Mathias, Aaron and Rudiger, after finding Aaron's lucky dice on him. The party is told there are three eye witnesses that saw Strax killing Mathias, one town guard and two drunkards. The party advises the prosecutor to pay a visit to Mince to obtain more information about the Eipeks poison.
 Before leaving the palace, Jack takes the chance to speak with Anahel, and returns the palace access seals. From this exchange, he learns that Mathias was Archon's sibling, and that Roway Fay has shown up, and is being temporarily held for interrogation.
