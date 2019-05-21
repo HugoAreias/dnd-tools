@@ -6,6 +6,7 @@
 * [When Plans Go Awry](#when-plans-go-awry)
 * [A Criminal Amongst Us](#a-criminal-amongst-us)
 * [The Wheels are Turning](#the-wheels-are-turning)
+* [Fortis et Liber](#fortis-et-liber)
 
 ## The Journey Begins
 
@@ -153,3 +154,25 @@ The party heads to the noble quarters to scout the place, but are interrupted by
 
 Meanwhile in his cell, Strax wanders aimlessly around until he perceives an owl perched on the window sill. Strax grabs a peach and offers it to the owl. The owl looks at Strax curiously, and after a few heartbeats it flies over, perches on his arm and starts feeding on the peach. Strax moves toward the only chair in the cell and sits down. In spite of that, the owl seems unperturbed by the movement and keeps a firm grip onto Strax's arm. After finishing off the peach, it flies over and lands on the wooden frame of the bed. For a few seconds, it gazes at the floor with its flaring eyes. A tiger form starts materialising at the place the owl is staring at. Strax, taken aback and bewildered, attempts to talk to the spectral tiger, however this suddenly leaps at Strax and goes through him. Strax shudders in shock, and feels an intense pain as if his veins were burning. Eventually the pain subsides, Strax manages a few breaths, and only then realises the owl is still perched on the wooden frame staring intensely at him. A few minutes go by, and the owl, showing no signs of fear, flies over and perches on Strax's shoulder with a herculean grip.
 Strax and the owl remain in silence on the dark cell, brightened by the dim moonlight, waiting for the big day to come.
+
+## Fortis et Liber
+
+At an uncertain place and time, ***Uriel***, a Paladin of ***Bahamut***, gets out of ordinary instructions from his superior to befriend and assist Valentine's Investigations troupe. He is also advised to only let his presence to be known to them after the trial.
+
+Early morning, the party receives an official note notifying them that Strax's trial has been postponed for next day due to unforeseen events, and that all members of the party are to attend. Suspecting something is wrong, the party decides to head to the palace where they are informed by the royal guards that superior's orders have been issued to block the party access to the palace, deny any contact with staff, and prevent them from leaving the city.
+
+Before wrapping up for the day, the party attempts another visit at Al'gaz hideout, only to find an empty house. Jack decides to leave a note warning Al'gaz that his hideout is known to a secretive player. They then return to Valentine's Investigations' office. Moments later, Uriel, who was shadowing the party at some distance, spots some nimble individuals entering Al'gaz hideout, but compelled by his mission he decides to ignore this event, and continue trailing the party.
+
+With the day of the trial finally here, the party heads to the court early on, where they are escorted to the main chamber. Strax, Uriel, and the council members are already there when the party is ushered to their seats. On the way, Shirley locks eyes with Zephyr, which stands in the audience, but this seems unperturbed by his presence.
+
+Strax learns from the prosecutor that he is being accused of murdering Rudiger, Aaron, Mathias, and attempting on Janine's life. The remaining members of the party learn, for their astonishment, that they are accused of plotting against the council, of planning to break Strax out of jail, and escape from the city, and association with Al'gaz, an enemy of the state.
+
+After Strax is questioned about his involvement on Aaron's and Rudiger disappearance, Janine is asked to stand and confirm that Strax was the one attempting on her life. To this she corroborates dutifully. Mince is the one that follows, revealing the poison found on Mathias body was found to contain traces of Strax's poisonous skin patch. Lucio, although not present in the courtroom, also gave his testimony confirming the party had enquired about leaving the city.
+
+At this point, the party is uneasy as the whole proceedings are visibly a sham with the intent of framing them. Moreover, most of the council members appear to be apprehensive of the way the trial is heading. Nick is called to stand just to be confronted with the contract he has signed at the mercenaries guild, and the note that Jack left on Al'gaz hideout the previous night. Nick is taken aback by the fact that contract wording is completely different from what he recalls. Shirley is also called to stand, and to aggravate the situation, he is forced to confess he knocked Aaron unconscious on the night of his disappearance.
+
+Moments later the party is told the session is to be adjourned for the council to deliberate on the dubious facts presented on the trial. An hour later, the council members return to their seats, and Anahel announces that the council reached a verdict and that she was now ready to pass judgement. This announcement came as a shock to the party which did not yet had the chance to defend themselves. Jack bursts out in anger, questioning if justice was nothing more than a word in this courtroom, and declaring the trial to be a fraud, before being gagged and shoved onto his knees. Anahel, apparently unperturbed by Jack's ruckus, decrees that the party members are to be executed tomorrow morning. At this point, she pledges for Helm's forgiveness, and abruptly teleports the party along with Uriel to Walwich Wood.
+
+Uriel reveals to the party that their escape had been planned in advance, and leads them to a hidden cache where the party retrieves most of their belongings. At this point, Jack hears some noises among the trees, and warns his companions. A fight ensues with a krasso unit, but the party manages to fend them off with the unnoticed help of Strax's mysterious owl familiar.
+
+After the fight, the party agrees to rush to Sinaht to gather more information about the eerie artefact. On their way to Sinaht, they sight a krasso unit attacking a farm. A krasso military is urging the owner of the farm to kill his wife and daughter. Disgusted by the situation, the party decides to intercede on the captives' behalf, by attacking and defeating the krasso unit. The party manages to get hold of a prisoner, and from him they learn that this unit mission was to scout Sinaht's outskirts in order to find out about its weaknesses and assess its defences. Confronted by this information, the party decides to take the prisoner to Sinaht, and hand it over to the taxiarchae for interrogation.
