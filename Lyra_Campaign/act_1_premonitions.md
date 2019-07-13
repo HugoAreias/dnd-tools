@@ -181,7 +181,7 @@ After the fight, the party agrees to rush to Sinaht to gather more information a
 
 ## Seal a Deal
 
-When finally the party arrives to Sinaht, Uriel talks his way through the sentinels, and gets an audience with ***General Hasmal***. The party explains what led them to Sinaht, and handover the krasso scout they captured to Hasmal for interrogation. From Hasmal, they learn that Anahel has allegedly been executed for interfering with the trial of the party. As a token of good will, Hasmal welcomes the party to stay as guests on any inn on the city.
+When the party finally arrives to Sinaht, Uriel talks his way through the sentinels, and gets an audience with ***General Hasmal***. The party explains what led them to Sinaht, and handover the krasso scout they captured to Hasmal for interrogation. From Hasmal, they learn that Anahel has allegedly been executed for interfering with the trial of the party. As a token of good will, Hasmal welcomes the party to stay as guests on any inn on the city.
 
 After accommodating themselves, Jack and Nick decide to head to the library to learn more about the artefact, and its connection to Mordengard. When at the library, they are welcomed by a shiny golden building with tall spires, with a façade that resembles human cathedrals. Meanwhile, Strax, Uriel, and Shirley volunteer to assist on the interrogation of the captured krasso.
 
