@@ -7,6 +7,8 @@
 * [A Criminal Amongst Us](#a-criminal-amongst-us)
 * [The Wheels are Turning](#the-wheels-are-turning)
 * [Fortis et Liber](#fortis-et-liber)
+* [Seal a Deal](#seal-a-deal)
+* [A Family Reunion](#a-family-reunion)
 
 ## The Journey Begins
 
@@ -176,3 +178,33 @@ Moments later the party is told the session is to be adjourned for the council t
 Uriel reveals to the party that their escape had been planned in advance, and leads them to a hidden cache where the party retrieves their belongings that could be salvaged from their office. At this point, Jack hears some noises among the trees, and warns his companions. A fight ensues with a krasso unit, but the party manages to fend them off with the unnoticed help of Strax's mysterious owl familiar.
 
 After the fight, the party agrees to rush to Sinaht to gather more information about the eerie artefact. On their way to Sinaht, they sight a krasso scouting unit attacking a farm. A krasso military is urging the farm's owner to execute his wife and daughter. Disgusted by the situation, the party decides to intercede on the captives' behalf, attacking and eventually defeating the krasso unit. The party manages to get hold of a prisoner, and from him they learn that this unit mission was to scout Sinaht's outskirts in order to find out about its weaknesses and assess its defences. Confronted by this information, the party decides to take the prisoner to Sinaht, and hand it over to the taxiarchae for interrogation.
+
+## Seal a Deal
+
+When finally the party arrives to Sinaht, Uriel talks his way through the sentinels, and gets an audience with ***General Hasmal***. The party explains what led them to Sinaht, and handover the krasso scout they captured to Hasmal for interrogation. From Hasmal, they learn that Anahel has allegedly been executed for interfering with the trial of the party. As a token of good will, Hasmal welcomes the party to stay as guests on any inn on the city.
+
+After accommodating themselves, Jack and Nick decide to head to the library to learn more about the artefact, and its connection to Mordengard. When at the library, they are welcomed by a shiny golden building with tall spires, with a façade that resembles human cathedrals. Meanwhile, Strax, Uriel, and Shirley volunteer to assist on the interrogation of the captured krasso.
+
+At the library, Jack and Nick meet the librarian ***Harahel***. After an exchange of knowledge, they gain insight of how the demon's invasion came about, and learn about ***Zuriel***, a demon lord that fought at the Daenor war 75 years in the past, felling at the hands of Anahel. From Nick's slip of tongue, they also learn that resurrection is strictly forbidden in Daenor. Unfortunately, they are unable to learn anything new about the artefact, but Harahel confides that a tiefling named Al'gaz was around a few days ago was similar interests.
+
+Returning to their lodges, Jack asked the innkeeper if he know the whereabouts of Al'gaz, receiving a note with an address in return. Jack and Nick decide to play along, and meet whoever wrote the note at the designated address.
+
+Upon reaching the address, they are allowed upstairs, into Al'gaz quarters. Al'gaz offers the party a deal, rescuing a missing agent in exchange for access to all his informers. To ease the party's concerns, Al'gaz and ***Sylhana***, the Virmenor agent that goes by the name of Paeris, share information regarding the latest events. By all accounts, Rudiger wasn't part of Tarnak's special force, was just used as a ruse to create tension between Tarnak and Dhumnore. Also, Rowan is not what she seems to be, she is possible in league with either Tarnak or the Red Patrons. Momentarily, the exchange evolves to a personal level, when Al'gaz amusingly shares with Jack that his agents met an individual named ***Brian***, apparently Jack's brother, which could potentially hold information about the artefact. Also, he was surprised to learn that a third party apparently believes Jack knows the location where the artefact was last seen.
+
+Discussing the deal in hands, the party learns a Virmenor agent investigating the artefact has gone idle a few days ago at ***Araggodrid***. The party mission is to rescue her from Tarnak's vassal coastal city. Sylhana telepathically shares the name of the agent with Nick (***Yllara***). The party agrees with the deal, and Jack receives a badge that allows him to magically communicate, once per day, with Al'gaz's closest peer possessing an identical badge. Uriel decides to stay behind after he learns his sister is ill.
+
+Afterwards, the party decides to go on some errands before departing to Araggodrid. They meet with General Hasmal, and offer to work as Sinaht envoys throughout their journey, in order to gather an ally force to defend against Tarnak possible invasion. They visit a weapon smith to sell some equipment, and spend some hours at the library gathering information about Daenor war, and its major figures.
+
+Next morning, at 5AM, the party heads to Al'gaz quarters to embark on their mission. At his quarters, Al'gaz offers the party a pouch with 100 gold coins to cover for their troubles, and tells them they are to meet his informer on the other side of the portal Sylhana is about to open. After jumping into the portal, the party lands on a cell. When inspecting the cell's door, they realise this is open. All the remaining cells in the basement are empty, and all the other doors are open as well. At the end of the staircase leading upstairs is a locked metal trap door. Upstairs, Jack hears some footsteps. Nick hints at the apparent anxiety of the owner of the footsteps.
+
+After some pondering, the party decides to knock at the door. On the other side, they hear a padlock being removed, and a few seconds later the door is open. On the other side, they are confronted by a haggard bloke that urges them upstairs, before quickly replacing the padlock. He presents himself as Hackney, Al'gaz informer, and the party's assistant for the mission. He gives them a brief overview of the city's current situation, and the last location where ***Rosanna***, the code Yllara responds for, was last seen, when meeting with Brian. Jack recognises the house as his family's home.
+
+Before leaving the shelter, Shirley recommends the party to leave all the equipment at the shelter to avoid raising suspicions. Outside, Jack leads the party to his home, but they find nothing there other than an ordinary house, apparently still with signs of occupation. Seeing his home empty, Jack recalls the note Brian sent him a few days ago, mentioning a secret hideout. With the past coming back to him, Jack leads the party to the docks, where the hideout entrance is located. The party is disheartened by the number of Tarnak soldiers patrolling the docks. Nick engages on a reconnaissance of the compound surrounds, spotting a sea entrance to an underground tunnel.
+Jack decides to become invisible, and infiltrate the docks by himself. He manages to get through the entrance checkpoint unnoticed, and heads with determination to the warehouse where the secret hideout is located. Upon this place, he finds out the entrance is encumbered by piled debris. Jack returns outside, drops his invisibility, and approaches an old acquaintance, that shows a keen enthusiasm to see him, and excited to help Jack on his undertaking. From this bizarre acquaintance, Jack manages to obtain a boat belonging to his old friend ***Steve***, and a hat enough to cover his face.
+
+Jack jumps onto the boat, and heads to the underground tunnel. Following the only canal, he docks next to a gate blocking access to a staircase. Upon inspection of the house this staircase leads to, Jack realises this is the mayor's house, which is visibly guarded by Tarnak forces. Returning back through the canal, Jack notices a inconspicuous door, which he manages to force open with his crowbar after some initial effort. From the doors, a square pool unfolds, surrounded by a narrow pavement leading to a stony staircase. When opening the door at the end of the staircase, Jack finds himself at another warehouse, this one right next to the warehouse where the secret hideout is located.
+
+At this point, Jack decides it is time to find a way out of the dock compound, and convene with the remaining members of the party.
+
+## A Family Reunion
+
