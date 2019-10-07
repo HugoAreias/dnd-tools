@@ -8,7 +8,8 @@
 * [The Wheels are Turning](#the-wheels-are-turning)
 * [Fortis et Liber](#fortis-et-liber)
 * [Seal a Deal](#seal-a-deal)
-* [A Family Reunion](#a-family-reunion)
+* [A Family Reunion I](#a-family-reunion-i)
+* [A Family Reunion II](#a-family-reunion-ii)
 
 ## The Journey Begins
 
